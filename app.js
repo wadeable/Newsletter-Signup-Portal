@@ -34,7 +34,7 @@ app.post("/", function(req, res){
   const url = "https://us10.api.mailchimp.com/3.0/lists/8be6d34cd1";
   const options = {
     method: "POST",
-    auth: "wadeable:63387d20329fb9621941515bbdeaa67f-us10"
+    auth: "wadeable:{insert api key}"
   }
 
   const request = https.request(url, options, function(response){
@@ -62,10 +62,3 @@ app.post("/failure", function(req, res){
 app.listen(process.env.PORT || 3000, function(){
   console.log("Server is running on port 3000");
 })
-
-
-// api key
-// 63387d20329fb9621941515bbdeaa67f-us10
-
-// mailchimp audience id
-// 8be6d34cd1
