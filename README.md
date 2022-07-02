@@ -4,4 +4,4 @@ Newsletter signup intake form that filters names and emails into a Mailchimp add
 Deployed using heroku <br>
 https://glacial-reaches-65440.herokuapp.com/ <br>
 <br>
-*missing node_modules, would need to be reinstalled via command line to reproduce // files uploaded for record keeping
+*missing node_modules, would need to be reinstalled via command line to reproduce -- necessary packages can be found in package.json // files uploaded for record keeping
